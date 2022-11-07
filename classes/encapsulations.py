@@ -17,6 +17,3 @@ book.get_title()
 
 book.set_title("The Clementine")
 book.get_title()
-
-
-

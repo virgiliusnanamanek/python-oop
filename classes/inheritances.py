@@ -21,5 +21,8 @@ class Student(Person):
         print(f"Hello, I'm {self.name} and I'm {self.age}. I was graduated at {self.graduation_year}")
 
 
-student = Student("Nana", 22, 2023)
-student.welcoming()
+student01 = Student("John", 20, 2020)
+student02 = Student("Nana", 22, 2023)
+
+student01.welcoming()
+student02.welcoming()

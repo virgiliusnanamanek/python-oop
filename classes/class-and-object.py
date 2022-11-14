@@ -18,3 +18,8 @@ print("Blu is a {}".format(blu.__class__.species))
 
 # access the instance attributes
 print("{}'s color is {} and his age is {}".format(blu.name, blu.color, blu.age))
+
+# Output
+# Blu is a bird
+# Blu's color is Red and his age is 10
+

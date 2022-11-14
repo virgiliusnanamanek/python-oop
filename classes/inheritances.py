@@ -23,6 +23,22 @@ class Student(Person):
 
 student01 = Student("John", 20, 2020)
 student02 = Student("Nana", 22, 2023)
+student03 = Student("Mina", 19, 2021)
+
+print("=========================================")
+
+student01.who_are_you()
+student02.who_are_you()
+student03.who_are_you()
+
+print("===========================================")
+
+student01.how_old_are_you()
+student02.how_old_are_you()
+student03.how_old_are_you()
+
+print("===========================================")
 
 student01.welcoming()
 student02.welcoming()
+student03.welcoming()

@@ -39,10 +39,14 @@ obj_merci = Mercedez("Mercedes", "gray")
 obj_tesla = Tesla("Tesla", "black")
 obj_ferary = Ferary("Ferary", "yellow")
 
+print("===================================")
+
 obj_car.wheels()
 obj_merci.wheels()
 obj_tesla.wheels()
 obj_ferary.wheels()
+
+print("====================================")
 
 obj_car.color_type()
 obj_merci.color_type()

@@ -15,6 +15,7 @@ class Stack:
 s = Stack()
 s.push("A")
 s.push("B")
+s.push("D")
 print(s.get_stack())
 s.push("C")
 print(s.get_stack())

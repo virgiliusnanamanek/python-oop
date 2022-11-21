@@ -24,7 +24,10 @@ class Student(Person):
 class Teacher(Person):
     def __init__(self, name, age, year):
         super().__init__(name, age)
-        self.my_age = age
+        self.my_entry_year = year
+
+    def introduction(self):
+        print(f"Hello, I'm {self.name} and I'm {self.age} years old. I was here since {self.my_entry_year}")
 
 student01 = Student("John", 20, 2020)
 student02 = Student("Nana", 22, 2023)
@@ -67,3 +70,5 @@ teacher02.how_old_are_you()
 
 print("==========================================")
 
+teacher01.introduction()
+teacher02.introduction()

@@ -11,5 +11,4 @@ class Person:
 first_person = Person("Nana", 20)
 
 print(first_person)
-
 # The __init__() function is called automatically every time the class is being used to create a new object.

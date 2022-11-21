@@ -8,7 +8,6 @@ class Book:
     def set_title(self, title):
         self.__title = title
 
-
 book = Book()
 book.get_title()
 

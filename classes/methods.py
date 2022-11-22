@@ -10,7 +10,9 @@ class Parrot:
 
     def dance(self):
         return f"{self.name} is now dancing"
-
+    
+    def fly(self):
+        return f"{self.name} are flying"
 
 # instantiate the object
 blu = Parrot("Blu", 10)
@@ -18,3 +20,4 @@ blu = Parrot("Blu", 10)
 # call our instance methods
 print(blu.sing("'Happy'"))
 print(blu.dance())
+print(blu.fly())
